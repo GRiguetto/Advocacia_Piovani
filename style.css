@@ -17,6 +17,10 @@ p, ul, ol, a {
     font-weight: 400;
 }
 
+a img {
+    weigth: 100px;
+}
+
 /* Cabeçalho */
 header {
     font-family: 'Merriweather', serif;
