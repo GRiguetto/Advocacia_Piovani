@@ -26,10 +26,6 @@ header {
     
 }
 
-header a img {
-    weigth: 100px;
-}
-
 /* Estilização dos botões de navegação */
 .navbar-nav .nav-item {
     margin-left: 15px;
