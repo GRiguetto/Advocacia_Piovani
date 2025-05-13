@@ -17,10 +17,6 @@ p, ul, ol, a {
     font-weight: 400;
 }
 
-a img {
-    weigth: 100px;
-}
-
 /* Cabeçalho */
 header {
     font-family: 'Merriweather', serif;
@@ -28,6 +24,10 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 15px
     
+}
+
+header a img {
+    weigth: 100px;
 }
 
 /* Estilização dos botões de navegação */
