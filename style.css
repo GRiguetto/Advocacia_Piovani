@@ -184,7 +184,7 @@ text-align: justify;
 }
 
 .map-location{
-  
+    padding: 20px;
     width: 1200px;
     height: 400px;
   
@@ -255,7 +255,50 @@ text-align: justify;
     font-size: 1rem;
 }
 
+/* RODAPE */
+footer {
+    background: #000;
+    padding-top: 50px;
+    min-height: 150px; /* Ajustável */
+}
 
+footer .row {
+  display: flex;
+  align-items: stretch; /* estica todas as colunas */
+}
+
+footer .col-md-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .col-md-6 p {
+  margin-bottom: 0; /* tira margem extra */
+  color: #ffffff;
+  text-align: center;
+}
+
+footer ul li {
+    margin-top: 8px;
+}
+
+footer ul li a {
+    color: #ffffff;
+}
+
+footer ul li a img {
+    width: 25px;
+}
+
+footer ul li a:hover {
+    color: #6B8E23;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
 
 /* Animações */
 @keyframes zoomIn {
