@@ -1,10 +1,9 @@
 <!-- oque tem que fazer?
-    1- adicionar footer
     2- arrumar formulario de email
-    3- adicionar mapa e redes sociais (se o cliente quiser)
+
 
  
-    7- fixar header (acho que ficaria melhor)
+
 
  -->
 
@@ -29,6 +28,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <!-- Cabeçalho -->
@@ -83,9 +84,9 @@
     <!-- Seção de Hero -->
     <section class="hero-section">
       <div class="container text-center">
-        <h1 class="display-4">Helcio Piovani</h1>
-        <p class="lead">Áreas cível administrativa e criminal</p>
-        <a href="#services" class="btn btn-primary animated-button"
+        <h1 class="display-4" data-aos="fade-down" data-aos-duration="1000">Helcio Piovani</h1>
+        <p class="lead" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Áreas cível administrativa e criminal</p>
+        <a href="#services" class="btn btn-primary animated-button" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400"
           >Nossos Serviços</a
         >
       </div>
@@ -94,16 +95,16 @@
     <!-- Seção Sobre -->
     <section id="about" class="about-section">
       <div class="container">
-        <h2 class="text-center mb-5">Sobre Mim</h2>
+        <h2 class="text-center mb-5" data-aos="fade-up">Sobre Mim</h2>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
             <img
               src="img/about-me.png"
               alt="Sobre Mim"
-              class="img-fluid rounded animate__animated animate__fadeInLeft"
+              class="img-fluid rounded"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
             <h3>Advogado Piovani</h3>
             <p class="About">
              Advocacia HPiovani
@@ -119,9 +120,9 @@
     <!-- Seção Serviços -->
     <section id="services" class="services-section">
       <div class="container">
-        <h2 class="text-center">Serviços</h2>
+        <h2 class="text-center" data-aos="fade-up">Serviços</h2>
         <div class="row">
-          <div class="col-md-4 service-item">
+          <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="100">
             <i class="fas fa-gavel service-icon"></i>
             <h4>Cível</h4>
             <p> O que é a área cível?</p>
@@ -131,7 +132,7 @@
               O objetivo principal é assegurar os direitos e deveres dos indivíduos em suas interações privadas, promovendo a justiça e a ordem social .
             </p>
           </div>
-          <div class="col-md-4 service-item">
+          <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="200">
             <i class="fas fa-balance-scale service-icon"></i>
             <h4>Administrativa</h4>
             <p>O que é a área administrativa no Direito?</p>
@@ -140,7 +141,7 @@
               Ela abrange normas e princípios que orientam a atuação de órgãos públicos, agentes administrativos e entidades estatais, visando garantir a legalidade, a eficiência e o interesse público nas ações governamentais .
             </p>
           </div>
-          <div class="col-md-4 service-item">
+          <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="300">
             <i class="fas fa-handshake service-icon"></i>
             <h4>O que é a área criminal no Direito?</h4>
             <p>
@@ -166,9 +167,9 @@
     <!-- Seção Casos de Sucesso -->
     <section id="portfolio" class="success-cases-section">
       <div class="container">
-        <h2 class="text-center">Casos de Sucesso</h2>
+        <h2 class="text-center" data-aos="fade-up">Casos de Sucesso</h2>
         <div class="row">
-          <div class="col-md-6 case-item">
+          <div class="col-md-6 case-item" data-aos="fade-up" data-aos-delay="100">
             <h4>Caso 1 – Revisão de Pensão Alimentícia exemplo</h4>
             <p>
               Um pai, diante de dificuldades financeiras após a perda do
@@ -180,7 +181,7 @@
               alívio financeiro ao cliente. (exemplo gerado por IA)
             </p>
           </div>
-          <div class="col-md-6 case-item">
+          <div class="col-md-6 case-item" data-aos="fade-up" data-aos-delay="200">
             <h4>Caso 2 – Indenização por Danos Morais exemplo</h4>
             <p>
               Uma cliente teve seu nome negativado por engano por uma
@@ -192,7 +193,7 @@
               inadimplentes. (exemplo gerado por IA)
             </p>
           </div>
-          <div class="col-md-6 case-item">
+          <div class="col-md-6 case-item" data-aos="fade-up" data-aos-delay="300">
             <h4>Caso 3 – Defesa Trabalhista para Pequena Empresa exemplo</h4>
             <p>
               Uma microempresa familiar foi surpreendida com uma ação
@@ -205,7 +206,7 @@
               financeiros.(exemplo gerado por IA)
             </p>
           </div>
-          <div class="col-md-6 case-item">
+          <div class="col-md-6 case-item" data-aos="fade-up" data-aos-delay="400">
             <h4>Caso 4 – Inventário Rápido e Consensual exemplo</h4>
             <p>
               Após o falecimento de um ente querido, uma família nos procurou
@@ -223,9 +224,9 @@
 
     <section id="location" class="locatio-section">
 
-          <h2 class="text-center">Localização</h2>
+          <h2 class="text-center" data-aos="fade-up">Localização</h2>
           <br />
-          <div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.4789176667077!2d-49.38148118876003!3d-20.81235866631131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad5bc42246d9%3A0xaa6f01d005d8319f!2sR.%20XV%20de%20Novembro%2C%202939%20-%20Centro%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20-%20SP%2C%2015015-110!5e0!3m2!1spt-BR!2sbr!4v1748282440578!5m2!1spt-BR!2sbr" 
             width="900"
             height="450"
@@ -244,9 +245,9 @@
     <!-- Seção Contato -->
     <section id="contact" class="contact-section">
       <div class="container">
-        <h2 class="text-center mb-5">Entre em Contato</h2>
+        <h2 class="text-center mb-5" data-aos="fade-up">Entre em Contato</h2>
         <div class="row justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
             <form id="contact-form" class="contact-form">
               <div class="form-group">
                 <label for="name">Nome:</label>
@@ -334,5 +335,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 100
+      });
+    </script>
   </body>
 </html>
